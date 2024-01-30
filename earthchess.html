@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./earthchess.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    
+
+<h1 style="text-align: center;">Earth Lotus Chess</h1>
+<p style="text-align: center;"><storng>Drive your seed or shooting star into the center of the board!</p></storng> 
+<fieldset style="text-align: center; width: 600px; margin: auto;">
+    <legend>Player Pieces and Move Instructions</legend>
+    
+
+    <table>
+        <tr>
+          <th>P1</th>
+          <th>P2</th>
+          <th>Piece Movement</th>
+
+        </tr>
+        <tr>
+          <td>⭐</td>
+          <td>🌰</td>
+          <td>moves one space at a time. Cannot move diagnoally, only perpendicular</td>
+
+        </tr>
+        <tr>
+          <td>🌍</td>
+          <td>🌸</td>
+          <td>moves on red lines only, but any amount of spaces</td>
+
+        </tr>
+        <tr>
+            <td>🌑</td>
+            <td>🌱</td>
+            <td>moves on red lines only and only one space at a time</td>
+  
+          </tr>
+      </table>
+
+
+<div>NOTE: a space is a white circle and turns red when hovered over with cursor, and turns blue when clicked upon</div>
+</fieldset>                        
+
+
+<div style="width: 550px; text-align: center; margin: auto;">
+
+    <h2>General Rules</h2>
+<div>Players start on opposite corners of the board.
+ The goal of the game is to get one star (player 1 has star) or one seed (player 2 has seed) to the center of the board. Same type pieces (pieces that move in the same manner like opposing player) cannot eat each other.Only different natured (pieces that move differently) can eat one another
+ Pieces cannot jump over one another. To Eat a piece, click from your piece to the space where the piece you want to eat is located. Pieces can block one another, and the game is not restricted so feel free for house rules!</div>
+
+
+
+ </div>
+</div>
+
+</div>
+
+<br>
+</div>
+<div style="text-align: center; margin: auto;" class="lineBoard" id="board"></div>
+
+<div style="text-align: center; margin: auto; width: 550px;">
+    <h3>Last Move History:</h3>
+<div id="history"></div>
+<h3>Eat History</h3>
+<div id="eatHistory"></div>
+
+</div>
+<br>
+<script src="/earthchess.js"></script>
+
+  </tfoot>
+</table>
+</body>
+</html>
