@@ -244,15 +244,14 @@ document.body.appendChild(parentDiv);
 
 
 document.getElementById("a1").innerHTML = "<div style='font-size:25px' class='blueheart'>🌍</div>";
-document.getElementById("a2").innerHTML = "<div style='font-size:25px' class='bluecircle'>⭐</div>";
-document.getElementById("b1").innerHTML = "<div style='font-size:25px' class='bluecircle2'>⭐</div>";
+document.getElementById("c2").innerHTML = "<div style='font-size:25px' class='bluecircle'>⭐</div>";
+document.getElementById("b3").innerHTML = "<div style='font-size:25px' class='bluecircle2'>⭐</div>";
 document.getElementById("b2").innerHTML = "<div style='font-size:25px' class='bluediamond'>🌑</div>";
 
 
-
 document.getElementById("i9").innerHTML = "<div style='font-size:25px' class='redheart'>🌸</div>";
-document.getElementById("h9").innerHTML = "<div style='font-size:25px' class='redcircle'>🌰</div>";
-document.getElementById("i8").innerHTML = "<div style='font-size:25px' class='redcircle2'>🌰</div>";
+document.getElementById("h7").innerHTML = "<div style='font-size:25px' class='redcircle'>🌰</div>";
+document.getElementById("g8").innerHTML = "<div style='font-size:25px' class='redcircle2'>🌰</div>";
 document.getElementById("h8").innerHTML = "<div style='font-size:25px' class='rediamond'>🌱</div>";
 
 
