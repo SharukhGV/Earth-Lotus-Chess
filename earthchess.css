@@ -20,7 +20,7 @@ background-size: cover;
     .white {
     background-color: rgb(255, 255, 255);
     border: solid;
-    border-color: black;
+    border-color: rgb(255, 0, 0);
     width:17px;
     height:17px;
     border-radius: 50%;
@@ -50,4 +50,13 @@ background-size: cover;
 
     table, th, td {
         border: 1px solid;
+      }
+
+      #e5{
+        background-color: rgb(0, 255, 0);
+      }
+
+      
+      #e5:hover{
+        background-color: rgb(255, 255, 255);
       }
